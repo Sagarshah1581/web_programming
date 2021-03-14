@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        }
+
+        .bg {
+            background-image: url("images/bg1.jpg");
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .p1 {
+            color: white;
+            font-size: 2em;
+        }
+
+        span {
+            float: right;
+            font-size: 1.5em;
+            word-spacing: 1em;
+            margin-right: 5em;
+            margin-top: 1em;
+            color: white;
+        }
+
+        a {
+            color: rgb(69, 143, 69);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: rgb(69, 143, 69);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(127, 182, 150);
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        form {
+            float: right;
+            color: white;
+            padding-top: 5em;
+            margin-bottom: 5em;
+            margin-left: 20em;
+
+        }
+
+        legend {
+            border-color: white 1px solid;
+
+        }
+
+        input {
+
+            margin-right: 5em;
+            float: right;
+        }
+
+        label {
+            text-align: center;
+            padding: 2em;
+            margin-right: 2em;
+            color: rgb(21, 165, 129);
+
+        }
+
+        h1 {
+            font-size: 3em;
+            color: rgb(10, 129, 158);
+            margin-bottom: 1em;
+
+        }
+
+        .b1 {
+            margin-left: 10em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <header>
+
+        <span>
+            <a href="home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="registration.html">Registration</a>
+            <a href="cars.html">Cars</a>
+            <a href="aboutUs.html">AboutUs</a>
+
+        </span>
+
+    </header>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>Registration Form</h1>
+            </legend>
+            <label>First Name:</label>
+            <input type="text" name="fname" placeholder="Jon" id="fname"><br><br>
+            <label>Last Name:</label>
+            <input type="text" name="lname" placeholder="Doe" id="lname"><br><br>
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="abc@example.com" id="email"><br><br>
+            <label>Password:</label>
+            <input type="password" name="email" placeholder="password" id="password"><br><br>
+            <label>Confirm Password:</label>
+            <input type="password" name="Cpassword" placeholder="re-type password" id="Cpassword"><br><br>
+            <label>Drivers License:</label>
+            <input type="text" name="license" placeholder="abc1233455" id="license"><br><br>
+            <label>Phone Number:</label>
+            <input type="number" name="phone" placeholder="987654321" id="phone"><br><br><br>
+
+            <footer class="b1">
+                <button>Register</button>
+                <button>Cancel</button>
+                <br><br>
+            </footer>
+        </fieldset>
+    </form>
+</body>
+
+</html>
